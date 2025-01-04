@@ -1,0 +1,19 @@
+[project]
+name = "benchmark"
+version = "0.1.0"
+description = "This repo is used to benchmark embedding models and Vietnamese Tokenizers"
+requires-python = ">=3.10"
+dependencies = [
+    "conllu>=6.0.0",
+    "numpy<2",
+    "pyvi>=0.1.1",
+    "underthesea>=6.8.4",
+    "vi-core-news-lg",
+    "vncorenlp>=1.0.3",
+]
+
+[tool.uv]
+cache-dir = "/media/nam/Data/.cache/uv"
+
+[tool.uv.sources]
+vi-core-news-lg = { url = "https://gitlab.com/trungtv/vi_spacy/-/raw/master/vi_core_news_lg/dist/vi_core_news_lg-0.0.1.tar.gz" }
