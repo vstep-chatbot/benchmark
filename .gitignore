@@ -9,4 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
+# Project
 .env
+VnCoreNLP-1.2.jar
+models/
+vstep_raft_data.json
+STS_output
